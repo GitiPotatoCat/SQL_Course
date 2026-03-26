@@ -1,0 +1,5 @@
+CREATE DATABASE TSQLMastery; 
+GO 
+
+USE TSQLMastery; 
+GO
