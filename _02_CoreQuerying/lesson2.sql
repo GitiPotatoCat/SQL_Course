@@ -207,10 +207,3 @@ GO
 
 -- ====================================================== 
 
-/* 
-    LIKE: Pattern Matching 
-
-    'LIKE' is for partial text matches. SQL Server uses these wildcards: 
-
-    
-/*
