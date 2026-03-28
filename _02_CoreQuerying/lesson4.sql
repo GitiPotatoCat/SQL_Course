@@ -11,6 +11,3 @@ ORDER BY Salary DESC;
 
 
 -- Sort by department A-Z, then salary highest-first within each dept 
-SELECT FirstName
-FROM dbo.Employees 
-ORDER BY Department ASC, Salary DESC;
