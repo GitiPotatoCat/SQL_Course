@@ -37,3 +37,13 @@ FROM dbo.Employees
 ORDER BY 3 ASC;     -- 3rd column = Salary
 GO
 
+
+/*
+    NOTES:
+
+    Best practice: Always use column names, not positions, in 'ORDER BY'. 
+        Positions break silently if someone reorders the 'SELECT' list. 
+    
+    Important: SQL Server does not guarantee row order unless you specify 
+        'ORDER BY'. Never assume rows come back in insertion order. 
+*/
